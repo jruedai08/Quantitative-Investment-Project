@@ -1,0 +1,8 @@
+This project is based on Liu et al (2024) "Replicating and Digesting Anomalies in the Chinese A-Share Market" and Ao et al (2019) "Approaching Mean-Variance Efficiency for Large  Portfolios". 
+The code consists 6 parts. 
+(1) data process
+(2) anomalies construction: In this part we construct 27 anomalies based on 8 classes of chrarcters.
+(3) indicator calculation: In this part we calculate some essential indicator including annual return, annual volatility and Maximum drawdown etc.
+(4) indiactor calculation part Ⅱ & anomalies selection
+(5) MAXSER: replicate the estimator "Approaching Mean-Variance Efficiency for Large  Portfolios"
+(6) alpha: calculate the abnormal return from CH-3 factor model and CH-4 factor model in Liu et al (2019) "Size and value in China".
